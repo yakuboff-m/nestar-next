@@ -27,7 +27,7 @@ const TrendProperties = (props: TrendPropertiesProps) => {
 		variables: {input: initialInput},
 		notifyOnNetworkStatusChange: true,
 		onCompleted: (data: T) => {
-			setTrendProperties(data?.getproperties?.list);
+			setTrendProperties(data?.getProperties?.list);
 		},
 	});
 	/** HANDLERS **/
